@@ -52,7 +52,7 @@ namespace SkillMine_NewSyllabus
             return $"id {id} name{name} price{price}";
         }
 
-        static void main(string[]args)
+        static void Main(string[]args)
         {
             List<product> l = new List<product>();
             l.Add(new product { id = 1, name = "bat", price = 2000 });
@@ -69,8 +69,8 @@ namespace SkillMine_NewSyllabus
             Console.WriteLine("price less than 1000");
             foreach(product p in l)
             {
-                if(p.price<1000)
-                Console.WriteLine
+                if (p.price < 1000)
+                    Console.WriteLine(p);
 
                 
             }
